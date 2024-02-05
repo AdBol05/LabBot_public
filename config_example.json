@@ -1,0 +1,32 @@
+{
+	"token": "PROD_DISCORD_TOKEN",
+	"TestToken": "TEST_DISCORD_TOKEN",
+	"prefix": "!",
+	"IDs":{	
+		"client": "CLIENT_ID",
+		"guild": "CHANNEL_ID",
+		"Erole": "EDITTOR_ROLE_ID",
+		"Lrole": "LAB_USER_ID",
+		"Admin": "AMDIN_ID"
+	},
+	"OLogPath": "path/to/output/log",
+	"ELogPath": "path/to/error/log",
+	"DB": {
+		"uri": "MongoDB connection string",
+		"dataset": "DB name",
+		"collections": {
+			"users": "Users table",
+			"lexicon": "Data table",
+			"storage": "Organization table"
+		},
+		"index": {"name": "text"},
+		"backupFolder": "path/to/backup",
+		"BackupOnStartup": true,
+		"ShrinkOnStartup": true
+	},
+	"channels": {
+		"AdminChannel": "ADMIN_CHANNEL_ID",
+		"TestChannel": "TEST_CHANNEL_ID"
+	},
+	"EnableLegacyCommands": false
+}

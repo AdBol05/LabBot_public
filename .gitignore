@@ -1,0 +1,12 @@
+node_modules/
+giterr.txt
+gitout.txt
+pokusy_bckp/
+BULK.json
+template_test.json
+temp/
+test.js
+bin/temp/
+test/
+backups/config.json
+config.json
